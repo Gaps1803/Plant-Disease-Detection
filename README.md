@@ -1,12 +1,12 @@
-#🌱 Plant Disease Detection
+🌱 Plant Disease Detection
 
-#📝 Project Overview
+📝 Project Overview
 
 This project implements a deep learning model for classifying plant diseases using the PlantVillage dataset. By leveraging a Convolutional Neural Network (CNN) built with TensorFlow/Keras, the model identifies various plant diseases from leaf images, enabling early detection and supporting agricultural management.
 
 
 
-#✨ Features
+✨ Features
 
 
 
@@ -36,7 +36,7 @@ Reproducibility: Sets random seeds for consistent results across runs.
 
 
 
-#🛠️ Prerequisites
+🛠️ Prerequisites
 
 To run this project, ensure you have the following installed:
 
@@ -74,7 +74,7 @@ Additionally, a Kaggle account and API credentials (kaggle.json) are required to
 
 
 
-#🚀 Installation
+🚀 Installation
 
 
 
@@ -110,7 +110,7 @@ export KAGGLE_KEY=<your-api-key>
 
 
 
-#📊 Dataset
+📊 Dataset
 
 The project uses the PlantVillage dataset, which includes:
 
@@ -132,7 +132,7 @@ The dataset is automatically downloaded and extracted within the notebook using 
 
 
 
-#📖 Usage
+📖 Usage
 
 
 
@@ -181,7 +181,7 @@ print(f'Predicted class: {predicted_class}')
 
 
 
-#🧠 Model Architecture
+🧠 Model Architecture
 
 The CNN model, built with TensorFlow/Keras, includes:
 
@@ -205,7 +205,7 @@ Softmax Activation: Outputs probabilities for multi-class classification.
 
 
 
-#📈 Results
+📈 Results
 
 
 
@@ -217,13 +217,13 @@ The notebook generates plots for training and validation accuracy/loss to evalua
 
 The trained model is saved as plant_disease_model.h5, with class indices stored in class_indices.json for easy prediction.
 
-#🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss improvements or bug fixes.
 
 
 
-#🙏 Acknowledgments
+🙏 Acknowledgments
 
 
 
